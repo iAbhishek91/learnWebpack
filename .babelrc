@@ -1,0 +1,7 @@
+// this file used by bable to understand the bable box we are using
+// we can inlude this in package.json as "babel": {"presets":["es2015","react"]}
+{
+    "presets": [
+        "es2015"
+    ]
+}

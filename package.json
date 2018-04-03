@@ -1,0 +1,24 @@
+{
+  "name": "mywebpack",
+  "version": "1.0.0",
+  "description": "Webpack demo and features",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack-build": "webpack-cli .\\src\\js\\apps.js --output=.\\dist\\js\\bundle.js",
+    "webpack-build-fromConfig": "webpack",
+    "webpack-build-watchMode": "webpack --watch",
+    "start-devServer": "webpack-dev-server"
+  },
+  "author": "doctorD",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "html-webpack-plugin": "^3.1.0",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.13",
+    "webpack-dev-server": "^3.1.1"
+  }
+}
